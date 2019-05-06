@@ -14,5 +14,5 @@ _start:
         xor     ebx, ebx               ; exit code 0
         int	0x80                   ; invoke operating system to exit
 message:
-        db      "Hello, Pentester Academy!", 10  ; 10 is a newline      
+        db      "Hello, World!", 10  ; 10 is a newline      
 len:	equ 	$ - message
